@@ -23,6 +23,7 @@ function App() {
           <li><a href="#idRequirements">Requirements</a></li>
           <li><a href="#idTools">Tools</a></li>
           <li><a href="#idUseCases">Use Cases</a></li>
+          <li><a href="#idArquitecture">Arquitecture</a></li>
         </ul>
 
         {/* Ŝpacer */}
@@ -51,15 +52,18 @@ function App() {
           <strong>R.4 - </strong>Create well documented “README” files to facilitate third-parties 
             interactions with our data. 
             This includes but is not restricted to: <br />
-            {'>'} Good description and definition of the contents of each file as well as the 
-            way they interact with others; <br />
-            {'>'} Units of measure; <br />
-            {'>'} Identification of the parameters of each table; <br />
-            {'>'} Hardware and software requirements and restrictions; <br />
-            {'>'} Specification of needed environmental conditions; <br />
-            {'>'} Data processing guide; <br />
-            {'>'} Description of associated datasets; <br />
-            {'>'} Support contacts.
+            
+            <ul>
+              <li>Good description and definition of the contents of each file as well as the 
+            way they interact with others;</li>
+              <li>Units of measure; </li>
+              <li>Identification of the parameters of each table; </li>
+              <li>Hardware and software requirements and restrictions;</li>
+              <li>Specification of needed environmental conditions;</li>
+              <li>Data processing guide;</li>
+              <li>Description of associated datasets;</li>
+              <li>Support contacts.</li>
+            </ul>
         </p>
         <p>
           <strong>R.5 - </strong>Maintain a high and consistent abstraction level to ensure the 
@@ -161,7 +165,7 @@ function App() {
         <div style={{height:"25px"}}></div>
 
         {/* Architecture*/}
-        <h1 id="idArchitecture">Architecture</h1>
+        <h1 id="idArquitecture">Architecture</h1>
         <img src="public/resources/Architecture.jpeg"  width="500" height="600"></img>
 
         {/* Ŝpacer */}

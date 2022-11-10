@@ -16,7 +16,7 @@ function App() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
+      
       <Container className="py-5">
         <h1>Index</h1>
         <ul>
@@ -154,6 +154,15 @@ function App() {
             </tr>
           </tbody>
         </Table>
+
+        {/* Ŝpacer */}
+        <div style={{height:"25px"}}></div>
+        <hr />
+        <div style={{height:"25px"}}></div>
+
+        {/* Architecture*/}
+        <h1 id="idArchitecture">Architecture</h1>
+        <img src="public/resources/Architecture.jpeg"  width="500" height="600"></img>
 
         {/* Ŝpacer */}
         <div style={{height:"500px"}}></div>

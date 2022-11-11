@@ -1,6 +1,3 @@
-# Link 
-[Modular Framework for Interactive Scenarios](https://peci2022.github.io/Project-Terminal/)
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -17,4 +14,4 @@ You may also see any lint errors in the console.
 
 ### `npm run deploy`
 
-To build and publish the WebSite
+To build and publish the WebSite (https://peci2022.github.io/Project-Terminal/)

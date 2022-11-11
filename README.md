@@ -1,4 +1,4 @@
-# Link Deployed SITE
+# Link 
 [Modular Framework for Interactive Scenarios](https://peci2022.github.io/Project-Terminal/)
 
 # Getting Started with Create React App

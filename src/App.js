@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar, Nav, NavDropdown, Container, ListGroup, Table } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Container, ListGroup, Table, Image } from 'react-bootstrap';
 
 function App() {
   return (
@@ -48,23 +48,24 @@ function App() {
           as free as possible “ philosophy. For this, block only specific uses of the dataset, 
           ensure due credit to contributors and authors and avoid licenses.
         </p>
-        <p>
-          <strong>R.4 - </strong>Create well documented “README” files to facilitate third-parties 
+        <div>
+          <p><strong>R.4 - </strong>Create well documented “README” files to facilitate third-parties 
             interactions with our data. 
-            This includes but is not restricted to: <br />
+            This includes but is not restricted to:
+          </p>
             
-            <ul>
-              <li>Good description and definition of the contents of each file as well as the 
-            way they interact with others;</li>
-              <li>Units of measure; </li>
-              <li>Identification of the parameters of each table; </li>
-              <li>Hardware and software requirements and restrictions;</li>
-              <li>Specification of needed environmental conditions;</li>
-              <li>Data processing guide;</li>
-              <li>Description of associated datasets;</li>
-              <li>Support contacts.</li>
-            </ul>
-        </p>
+          <ul>
+            <li>Good description and definition of the contents of each file as well as the 
+          way they interact with others;</li>
+            <li>Units of measure; </li>
+            <li>Identification of the parameters of each table; </li>
+            <li>Hardware and software requirements and restrictions;</li>
+            <li>Specification of needed environmental conditions;</li>
+            <li>Data processing guide;</li>
+            <li>Description of associated datasets;</li>
+            <li>Support contacts.</li>
+          </ul>
+        </div>
         <p>
           <strong>R.5 - </strong>Maintain a high and consistent abstraction level to ensure the 
           dataset is flexible enough to be merged or used for the broadest amount of 
@@ -166,7 +167,7 @@ function App() {
 
         {/* Architecture*/}
         <h1 id="idArquitecture">Architecture</h1>
-        <img src="public/resources/Architecture.jpeg"  width="500" height="600"></img>
+        <Image src={require('./assets/Architecture.jpeg')} style={{border: "1px solid #333"}} fluid/>
 
         {/* Ŝpacer */}
         <div style={{height:"500px"}}></div>

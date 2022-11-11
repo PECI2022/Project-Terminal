@@ -1,5 +1,6 @@
 # Link Deployed SITE
-[React documentation](https://peci2022.github.io/Project-Terminal/)
+[Modular Framework for Interactive Scenarios](https://peci2022.github.io/Project-Terminal/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
